@@ -1,0 +1,66 @@
+@media screen and (max-width: 767px) {
+  .profile-image {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-card {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .my-details-container {
+    margin-right: 150px;
+    margin-bottom: 100px;
+  }
+
+  .user-role {
+    color: #fdc435;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    line-height: 0.5;
+    margin-bottom: 0px;
+  }
+
+  .user-name-description {
+    color: #333333;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .user-description {
+    color: #828282;
+    width: 400px;
+    font-size: 18px;
+  }
+
+  .projects-btn {
+    background-color: #fdc435;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: #25282b;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+  }
+
+  .linkedin-btn {
+    background-color: transparent;
+    padding: 10px 20px 10px 20px;
+    border: solid 1px #25282b;
+    border-radius: 8px;
+    color: #25282b;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+  }
+
+  .profile-image {
+    height: 700px;
+    align-self: flex-end;
+  }
+}

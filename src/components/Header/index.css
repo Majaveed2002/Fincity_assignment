@@ -1,0 +1,46 @@
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+
+.list-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  list-style-type: none;
+}
+
+.user-name {
+  color: #25282b;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+a {
+  color: #25282b;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul > a:hover {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .user-name {
+    font-size: 15px;
+  }
+  .header-section {
+    justify-content: space-around;
+  }
+  .list-card {
+    display: none;
+  }
+}

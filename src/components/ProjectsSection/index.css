@@ -1,0 +1,18 @@
+#projectSection {
+  min-height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.project-section-heading {
+  font-size: 50px;
+  color: #25282b;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 0;
+  text-align: center;
+}
