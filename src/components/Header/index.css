@@ -14,6 +14,19 @@
   font-size: 20px;
   font-weight: 600;
   font-family: cursive;
+  margin-right: 20px;
+}
+
+.icon-container {
+  margin-left: 50px;
+}
+
+.menu-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 50px;
+  gap: 10px;
 }
 
 @media screen and (min-width: 768px) {
