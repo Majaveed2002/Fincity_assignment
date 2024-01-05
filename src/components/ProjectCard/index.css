@@ -1,26 +1,35 @@
 .project-card {
+  display: none;
+}
+
+.project-mobile-card {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   list-style-type: none;
+  text-align: center;
   margin-bottom: 20px;
-  width: 100%;
-  gap: 50px;
+}
+
+.project-image {
+  width: 200px;
+  border-radius: 8px;
 }
 
 .project-name {
   color: #25282b;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   font-family: fantasy;
+  line-height: 0.5;
 }
 
 .project-description {
   color: #828282;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Roboto';
   font-weight: 600;
-  width: 300px;
+  width: 200px;
 }
 
 .project-btn {
@@ -30,11 +39,52 @@
   padding: 10px 20px 10px 20px;
   color: #25282b;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
 }
 
-.project-image {
-  width: 350px;
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
+@media screen and (min-width: 768px) {
+  .project-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+    width: 100%;
+    gap: 50px;
+  }
+
+  .project-name {
+    color: #25282b;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: fantasy;
+  }
+
+  .project-description {
+    color: #828282;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    width: 300px;
+  }
+
+  .project-btn {
+    background-color: transparent;
+    border: 2px solid #25282b;
+    border-radius: 12px;
+    padding: 10px 20px 10px 20px;
+    color: #25282b;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .project-image {
+    width: 350px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+
+  .project-mobile-card {
+    display: none;
+  }
 }
